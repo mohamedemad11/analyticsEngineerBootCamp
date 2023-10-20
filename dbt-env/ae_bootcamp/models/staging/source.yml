@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name : northwind
+    schema : dl_northwind
+    tables: 
+      - name : Customer
+      - name : Employees        
+      - name : EmployeePrivileges
+      - name : InventoryTransactionTypes
+      - name : InventoryTransactions 
+      - name : Invoices 
+      - name : OrderDetails 
+      - name : OrderDetailsStatus
+      - name : Orders
+      - name : OrdersStatus
+      - name : OrdersTaxStatus
+      - name : Privileges
+      - name : Products 
+      - name : PurchaseOrderDetails 
+      - name : PurchaseOrderStatus 
+      - name : PurchaseOrders 
+      - name : SalesReports
+      - name : Shippers 
+      - name : Strings
+      - name : Suppliers
